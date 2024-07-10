@@ -7,7 +7,7 @@ def tambah_data_mahasiswa():
 
         data_mahasiswa.append({'NIM': nim, 'Nama': nama})
 
-        lanjut = input("Ingin tambah lagi? (ya/tidak): ").strip().lower()
+        lanjut = input("Ingin tambah lagi? (ya/tidak): ")
         if lanjut != 'ya':
             break
 
